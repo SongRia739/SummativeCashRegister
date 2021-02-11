@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 
+//Ria Das
+//Cash register for an Indian sweets store
 namespace SummativeCashReceipt
 {
     public partial class Form1 : Form
@@ -51,13 +53,11 @@ namespace SummativeCashReceipt
 
                 //calculations that leads to sub total
                 subtotal = (rasgulla * numberRasgulla) + (peda * numberPeda) + (jaelbi * numberJaelibi);
-                //subTotal = Convert.ToInt32(subtotalLabel.Text);
 
                 subtotalLabel.Text = $"\nSub Total                                    {subtotal.ToString("$.00")}";
 
                 //calculations thet leads to tax 
                 taxAmount = subtotal * tax;
-              //  Tax = Convert.ToInt32(taxLabel.Text);
 
                 taxLabel.Text = $"\nTax                                                 {taxAmount.ToString("$.00")}";
 
@@ -71,9 +71,11 @@ namespace SummativeCashReceipt
             {
                 //message when you do not put a number
                 signButton.Text = "Boxes only come in numbers!";
+                signButton.BackColor = Color.White;
                 Refresh();
-                Thread.Sleep(3000);
+                Thread.Sleep(5000);
                 signButton.Text = "Indian Sweets Shop";
+                signButton.BackColor = Color.IndianRed;
             }
 
             }
@@ -94,9 +96,11 @@ namespace SummativeCashReceipt
             {
                 //message when you do not put a number
                 signButton.Text = "You can only pay with money!";
+                signButton.BackColor = Color.White;
                 Refresh();
-                Thread.Sleep(3000);
+                Thread.Sleep(5000);
                 signButton.Text = "Indian Sweets Shop";
+                signButton.BackColor = Color.IndianRed;
             }
         }
 
