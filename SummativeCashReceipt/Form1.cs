@@ -32,7 +32,7 @@ namespace SummativeCashReceipt
 
         double change;
 
-
+        SoundPlayer piano = new SoundPlayer(Properties.Resources.piano_music);
         public Form1()
         {
             InitializeComponent();
@@ -102,6 +102,8 @@ namespace SummativeCashReceipt
 
         private void rButton_Click(object sender, EventArgs e)
         {
+            piano.Play();
+
             receiptLabel.Show();
             Refresh();
             Thread.Sleep(1000);
