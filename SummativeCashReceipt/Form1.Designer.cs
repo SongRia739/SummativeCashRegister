@@ -197,6 +197,8 @@
             // 
             this.signButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.signButton.Font = new System.Drawing.Font("MisterEarl BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signButton.Image = ((System.Drawing.Image)(resources.GetObject("signButton.Image")));
+            this.signButton.ImageKey = "(none)";
             this.signButton.Location = new System.Drawing.Point(-10, 0);
             this.signButton.Name = "signButton";
             this.signButton.Size = new System.Drawing.Size(604, 42);
