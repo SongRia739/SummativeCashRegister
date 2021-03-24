@@ -116,23 +116,23 @@ namespace SummativeCashReceipt
             Refresh();
             Thread.Sleep(1000);
             receiptLabel.Text += $"\n\n";
-            receiptLabel.Text += $"\nRasgulla Box[{numberRasgulla}]...............................................$20";
+            receiptLabel.Text += $"\nRasgulla Box[{numberRasgulla}]................................................ $20";
             Refresh();
             Thread.Sleep(1000);
-            receiptLabel.Text += $"\nPeda Box[{numberPeda}].....................................................$15";
+            receiptLabel.Text += $"\nPeda Box[{numberPeda}]..................................................... $15";
             Refresh();
             Thread.Sleep(1000);
-            receiptLabel.Text += $"\nJalebi Box[{numberJaelibi}]...................................................$25";
+            receiptLabel.Text += $"\nJalebi Box[{numberJaelibi}].................................................... $25";
             Refresh();
             Thread.Sleep(1000);
             receiptLabel.Text += $"\n\n";
-            receiptLabel.Text += $"\nSub Total........................................................{subtotal.ToString("$.00")}";
+            receiptLabel.Text += $"\nSub Total........................................................{subtotal.ToString(" $.00")}";
             Refresh();
             Thread.Sleep(1000);
-            receiptLabel.Text += $"\nTax..................................................................{taxAmount.ToString("$.00")}";
+            receiptLabel.Text += $"\nTax.................................................................{taxAmount.ToString(" $.00")}";
             Refresh();
             Thread.Sleep(1000);
-            receiptLabel.Text += $"\nTotal...............................................................{total.ToString("$.00")}";
+            receiptLabel.Text += $"\nTotal...............................................................{total.ToString(" $.00")}";
             Refresh();
             Thread.Sleep(1000);
             receiptLabel.Text += $"\n\n";
@@ -150,7 +150,7 @@ namespace SummativeCashReceipt
         }
 
         private void neworderButton_Click(object sender, EventArgs e)
-        {
+        { 
             //reset boxes to 0 
             rasgullaBox.Text = "0";
             pedaBox.Text = "0";
@@ -164,6 +164,43 @@ namespace SummativeCashReceipt
             changeLabel.Text = " ";
             receiptLabel.Text = " ";
             receiptLabel.Hide();
+
+            //hide recepit
+            receiptLabel.Text += $"\n\n";
+            receiptLabel.Text += $"\n                            Ria's Indian Sweets Shop";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\n\n";
+            receiptLabel.Text += $"\nRasgulla Box[0]...............................................$20";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\nPeda Box[0].....................................................$15";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\nJalebi Box[0]...................................................$25";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\n\n";
+            receiptLabel.Text += $"\nSub Total........................................................$0.00";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\nTax..................................................................$0.00";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\nTotal...............................................................$0.00";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\n\n";
+            receiptLabel.Text += $"\nTendered........................................................$0.00";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\nChange...........................................................$0.00";
+            Refresh();
+            Thread.Sleep(1000);
+            receiptLabel.Text += $"\n\n";
+            receiptLabel.Text += $"\nThank you for coming! We hope to take your money again soon!";
+            Refresh();
+            Thread.Sleep(1000);
 
         }
     }

@@ -52,37 +52,37 @@
             // rasgullaLabel
             // 
             this.rasgullaLabel.AutoSize = true;
-            this.rasgullaLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rasgullaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rasgullaLabel.Location = new System.Drawing.Point(9, 55);
             this.rasgullaLabel.Name = "rasgullaLabel";
-            this.rasgullaLabel.Size = new System.Drawing.Size(79, 14);
+            this.rasgullaLabel.Size = new System.Drawing.Size(80, 15);
             this.rasgullaLabel.TabIndex = 0;
             this.rasgullaLabel.Text = "Rasgulla Box";
             // 
             // pedalabel
             // 
             this.pedalabel.AutoSize = true;
-            this.pedalabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pedalabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pedalabel.Location = new System.Drawing.Point(9, 91);
             this.pedalabel.Name = "pedalabel";
-            this.pedalabel.Size = new System.Drawing.Size(57, 14);
+            this.pedalabel.Size = new System.Drawing.Size(60, 15);
             this.pedalabel.TabIndex = 1;
             this.pedalabel.Text = "Peda Box";
             // 
             // jalebiLabel
             // 
             this.jalebiLabel.AutoSize = true;
-            this.jalebiLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jalebiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.jalebiLabel.Location = new System.Drawing.Point(9, 130);
             this.jalebiLabel.Name = "jalebiLabel";
-            this.jalebiLabel.Size = new System.Drawing.Size(64, 14);
+            this.jalebiLabel.Size = new System.Drawing.Size(64, 15);
             this.jalebiLabel.TabIndex = 2;
             this.jalebiLabel.Text = "Jalebi Box";
             // 
             // calculateButton
             // 
             this.calculateButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.calculateButton.Font = new System.Drawing.Font("MisterEarl BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.Location = new System.Drawing.Point(51, 165);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(115, 30);
@@ -115,40 +115,40 @@
             // subtotalLabel
             // 
             this.subtotalLabel.AutoSize = true;
-            this.subtotalLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subtotalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subtotalLabel.Location = new System.Drawing.Point(9, 198);
             this.subtotalLabel.Name = "subtotalLabel";
-            this.subtotalLabel.Size = new System.Drawing.Size(60, 14);
+            this.subtotalLabel.Size = new System.Drawing.Size(59, 15);
             this.subtotalLabel.TabIndex = 7;
             this.subtotalLabel.Text = "Sub Total";
             // 
             // taxLabel
             // 
             this.taxLabel.AutoSize = true;
-            this.taxLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.taxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxLabel.Location = new System.Drawing.Point(9, 229);
             this.taxLabel.Name = "taxLabel";
-            this.taxLabel.Size = new System.Drawing.Size(27, 14);
+            this.taxLabel.Size = new System.Drawing.Size(27, 15);
             this.taxLabel.TabIndex = 8;
             this.taxLabel.Text = "Tax";
             // 
             // totalLabel
             // 
             this.totalLabel.AutoSize = true;
-            this.totalLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalLabel.Location = new System.Drawing.Point(9, 257);
             this.totalLabel.Name = "totalLabel";
-            this.totalLabel.Size = new System.Drawing.Size(37, 14);
+            this.totalLabel.Size = new System.Drawing.Size(34, 15);
             this.totalLabel.TabIndex = 9;
             this.totalLabel.Text = "Total";
             // 
             // tenderedLabel
             // 
             this.tenderedLabel.AutoSize = true;
-            this.tenderedLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenderedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenderedLabel.Location = new System.Drawing.Point(9, 296);
             this.tenderedLabel.Name = "tenderedLabel";
-            this.tenderedLabel.Size = new System.Drawing.Size(62, 14);
+            this.tenderedLabel.Size = new System.Drawing.Size(63, 15);
             this.tenderedLabel.TabIndex = 10;
             this.tenderedLabel.Text = "Tendered ";
             // 
@@ -162,7 +162,7 @@
             // changeButton
             // 
             this.changeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.changeButton.Font = new System.Drawing.Font("MisterEarl BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeButton.Location = new System.Drawing.Point(51, 339);
             this.changeButton.Name = "changeButton";
             this.changeButton.Size = new System.Drawing.Size(115, 28);
@@ -174,17 +174,17 @@
             // changeLabel
             // 
             this.changeLabel.AutoSize = true;
-            this.changeLabel.Font = new System.Drawing.Font("Mirarae BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel.Location = new System.Drawing.Point(9, 383);
             this.changeLabel.Name = "changeLabel";
-            this.changeLabel.Size = new System.Drawing.Size(50, 14);
+            this.changeLabel.Size = new System.Drawing.Size(50, 15);
             this.changeLabel.TabIndex = 13;
             this.changeLabel.Text = "Change";
             // 
             // rButton
             // 
             this.rButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.rButton.Font = new System.Drawing.Font("MisterEarl BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rButton.Location = new System.Drawing.Point(12, 415);
             this.rButton.Name = "rButton";
             this.rButton.Size = new System.Drawing.Size(200, 30);
@@ -196,8 +196,7 @@
             // signButton
             // 
             this.signButton.BackColor = System.Drawing.Color.IndianRed;
-            this.signButton.Font = new System.Drawing.Font("MisterEarl BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signButton.Image = ((System.Drawing.Image)(resources.GetObject("signButton.Image")));
+            this.signButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signButton.ImageKey = "(none)";
             this.signButton.Location = new System.Drawing.Point(-10, 0);
             this.signButton.Name = "signButton";
@@ -208,7 +207,7 @@
             // 
             // receiptLabel
             // 
-            this.receiptLabel.Font = new System.Drawing.Font("Mirarae BT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.receiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.receiptLabel.Image = ((System.Drawing.Image)(resources.GetObject("receiptLabel.Image")));
             this.receiptLabel.Location = new System.Drawing.Point(293, 48);
             this.receiptLabel.Name = "receiptLabel";
@@ -218,7 +217,7 @@
             // neworderButton
             // 
             this.neworderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.neworderButton.Font = new System.Drawing.Font("MisterEarl BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.neworderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.neworderButton.Location = new System.Drawing.Point(292, 415);
             this.neworderButton.Name = "neworderButton";
             this.neworderButton.Size = new System.Drawing.Size(286, 30);
